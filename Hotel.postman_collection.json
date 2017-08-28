@@ -1,0 +1,95 @@
+{
+	"id": "4db9836a-e840-bce8-6322-e5f78a1b5f17",
+	"name": "Hotel",
+	"description": "",
+	"order": [
+		"125cebd8-4bd6-789b-3d25-14ef80dd051d"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1503592965858,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "125cebd8-4bd6-789b-3d25-14ef80dd051d",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost/hotel/public/hotel-search?city=a&name=Hotel&price_min=50&price_max=120&date_from=10-10-2020&date_to=15-10-2020&sort_type=price&sort_by=asc",
+			"queryParams": [
+				{
+					"key": "city",
+					"value": "a",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "name",
+					"value": "Hotel",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "price_min",
+					"value": "50",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "price_max",
+					"value": "120",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "date_from",
+					"value": "10-10-2020",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "date_to",
+					"value": "15-10-2020",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "sort_type",
+					"value": "price",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "sort_by",
+					"value": "asc",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "4db9836a-e840-bce8-6322-e5f78a1b5f17",
+			"data": null,
+			"dataMode": "params",
+			"name": "Hotel Search",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1503592971781,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}
